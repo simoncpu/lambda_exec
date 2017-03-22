@@ -14,7 +14,7 @@ module.exports = {
             mkdir -p /tmp/lambda_exec
 
             for i in \`ls ${process.env['LAMBDA_TASK_ROOT']}/bin/*\`; do
-                cp $i /tmp/lambda_exec;
+                cp -n $i /tmp/lambda_exec;
                 chmod +x /tmp/lambda_exec/\`basename $i\`
             done; 
         `;
