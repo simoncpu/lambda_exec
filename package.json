@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/simoncpu/lambda_exec/issues"
   },
-  "homepage": "https://github.com/simoncpu/lambda_exec#readme"
+  "homepage": "https://github.com/simoncpu/lambda_exec#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
