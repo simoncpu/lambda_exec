@@ -1,3 +1,9 @@
+# Important
+```diff
+- As of March 23, 2017, this is no longer needed because AWS already fixed this issue.
+```
+---
+
 # lambda_exec
 lambda_exec allows you to run arbitrary binary executables on AWS Lambda 4.3+
 
